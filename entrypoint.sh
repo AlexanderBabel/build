@@ -5,4 +5,4 @@ set -e
 APP_SUBDIR=${APP_SUBDIR:=.}
 
 export IMPORT_PATH=/github/workspace/${APP_SUBDIR}
-/bin/herokuish buildpack test
+/bin/herokuish buildpack build
