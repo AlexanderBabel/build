@@ -1,5 +1,5 @@
-name: 'Buildpack CI'
-description: 'Easily run builds and unit tests with minimal configuration efforts by using buildpacks a la Heroku'
+name: 'Buildpack Builds'
+description: 'Easily run builds with minimal configuration efforts by using buildpacks a la Heroku'
 runs:
   using: 'docker'
   image: 'Dockerfile'
